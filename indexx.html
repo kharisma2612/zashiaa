@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zashiiaa - Custom Dress Specialist</title>
+  <link rel="stylesheet" href="stylee.css">
+  <!-- Google Fonts: Fredoka, Plus Jakarta Sans & Great Vibes (untuk aksen tulisan sambung logo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HERO FULLSCREEN SECTION -->
+  <section id="home" class="hero-velnique">
+    <!-- Overlay gradasi pink lembut agar teks tetap jelas terbaca -->
+    <div class="hero-overlay"></div>
+
+    <!-- GLASSMORPHISM NAVBAR (TANPA CART) -->
+    <header class="navbar-glass-wrapper">
+      <nav class="navbar-glass">
+        <a href="#" class="brand-logo">Zashiiaa</a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#custom">Custom Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Tombol pengganti Cart di sisi kanan agar seimbang -->
+        <div class="nav-right">
+          <a href="https://wa.me/6281234567890" target="_blank" class="btn-nav-chat">
+            Chat Us <i class="fab fa-whatsapp"></i>
+          </a>
+          <div class="menu-toggle" id="mobileMenu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- KONTEN UTAMA HERO (GRID KIRI & KANAN BAWAH) -->
+    <div class="hero-content-grid">
+      
+      <!-- SISI KIRI: BADGE, HEADLINE BESAR + KAPSUL FOTO, & AVATAR TRUSTED -->
+      <div class="hero-left">
+        <span class="pill-badge">🎀 Custom Dress Specialist</span>
+        
+        <h1 class="hero-title">
+          Reveal Your<br>
+          Dream 
+          <!-- <span class="inline-pill-img">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=200&auto=format&fit=crop" alt="Mini Dress Preview">
+          </span><br> -->
+          Elegance
+        </h1>
+
+        <div class="trusted-box">
+          <div class="avatar-group">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop" alt="Customer 1">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop" alt="Customer 2">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&auto=format&fit=crop" alt="Customer 3">
+            <span class="avatar-plus">+</span>
+          </div>
+          <div class="trusted-text">
+            <strong>Trusted by</strong>
+            <span>1k+ lovely clients</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SISI KANAN BAWAH: DESKRIPSI & TOMBOL SHOP NOW -->
+      <div class="hero-right-bottom">
+        <p class="hero-desc">
+          Thoughtfully crafted custom dresses designed to match your unique style and measurements—leaving you feeling confident, graceful, and effortlessly radiant on every occasion.
+        </p>
+        <a href="#collection" class="btn-shop-pill">
+          <span>Explore Dress</span>
+          <span class="arrow-circle"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDITORIAL STORY SECTION (LEFT & RIGHT DECORATIVE IMAGES) -->
+  <section id="about" class="editorial-story-section">
+    <div class="editorial-container">
+
+      <!-- FOTO SISI KIRI (ARCH / LENGKUNGAN LEMBUT) -->
+      <div class="editorial-img-left">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop" alt="Zashiiaa Fabric Detail">
+      </div>
+
+      <!-- TEKS QUOTE DI TENGAH -->
+      <div class="editorial-text-center">
+        <h2>
+          <span class="soft-highlight">Custom dress</span> isn’t a rush you finish. It’s a
+          quieter ritual — <span class="soft-highlight">soft stitches,</span> made
+          gently, <span class="soft-highlight">until wearing your own style</span> feels ordinary.
+        </h2>
+        <p>
+          Zashiiaa blends thoughtful tailoring, gentle fabrics, and personal details into every piece
+          — no rush, no noise, just effortless beauty that fits your everyday moments.
+        </p>
+      </div>
+
+      <!-- FOTO SISI KANAN (ROUNDED CARD) -->
+      <div class="editorial-img-right">
+        <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&auto=format&fit=crop" alt="Zashiiaa Dress Styling">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT SUMMARY SECTION (HOME PAGE) -->
+  <section id="about" class="about-summary-section">
+    <div class="about-summary-container">
+      
+      <!-- SISI KIRI: FOTO VERTIKAL TINGGI -->
+      <div class="about-left-photo">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700&auto=format&fit=crop" alt="Zashiiaa Custom Dress Craft">
+      </div>
+
+      <!-- SISI KANAN: STATEMENT ATAS & 2 KARTU BAWAH -->
+      <div class="about-right-content">
+        
+        <!-- Pernyataan Utama -->
+        <h2 class="about-lead-text">
+          <span class="indent-space"></span>We believe confidence begins with a dress made just for you. Our thoughtfully crafted custom pieces are designed to highlight your natural grace and make every moment feel special.
+        </h2>
+
+        <!-- Grid 2 Kolom di Bawah: Kartu CTA + Foto Kedua -->
+        <div class="about-bottom-grid">
+          
+          <!-- Kartu Teks Lembut & Tombol "More About" -->
+          <div class="about-info-card">
+            <div>
+              <h3>Elegance Begins With You</h3>
+              <p>Discover custom dresses tailored to your exact fit and personal style, crafted gently with love.</p>
+            </div>
+            
+            <a href="#our-story" class="btn-more-about">
+              <span>More About</span>
+              <span class="btn-circle-icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
+            </a>
+          </div>
+
+          <!-- Kartu Foto Kedua -->
+          <div class="about-secondary-photo">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&auto=format&fit=crop" alt="Zashiiaa Dress Detail">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CATEGORY SHOWCASE SECTION (3 GRID IMAGES) -->
+  <section id="categories" class="category-showcase">
+    <div class="container">
+      <div class="category-grid">
+        
+        <!-- Kategori 1 -->
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop" alt="Casual Dress">
+          <div class="category-overlay">
+            <h3>Casual Dress</h3>
+            <a href="#" class="cat-link">Explore <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Kategori 2 -->
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&auto=format&fit=crop" alt="Party Gown">
+          <div class="category-overlay">
+            <h3>Party Gown</h3>
+            <a href="#" class="cat-link">Explore <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Kategori 3 -->
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop" alt="Custom Set">
+          <div class="category-overlay">
+            <h3>Custom Set</h3>
+            <a href="#" class="cat-link">Explore <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCOUNT TICKER / BANNER BERJALAN -->
+  <div class="discount-ticker">
+    <div class="ticker-track">
+      <span>✨ Get Discount Up To 15%</span>
+      <span>💖 Free Special Packaging</span>
+      <span>✨ Get Discount Up To 25%</span>
+      <span>🎀 Custom Size Free Request</span>
+      <span>✨ Get Discount Up To 15%</span>
+      <span>💖 Free Special Packaging</span>
+    </div>
+  </div>
+
+  <!-- ELEGANCE SALE BANNER SECTION -->
+  <section class="sale-banner-section">
+    <div class="container">
+      <div class="sale-banner-box">
+        
+        <!-- SISI KIRI: GAMBAR MODEL -->
+        <div class="sale-img-side">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&auto=format&fit=crop" alt="Zashiiaa Sale Dress">
+        </div>
+
+        <!-- SISI KANAN: TEKS & TOMBOL -->
+        <div class="sale-text-side">
+          <h2>Indulge in elegance now live on sale</h2>
+          <p>Every dress in our collection is crafted from luxurious fabrics like lace, mesh, and satin thoughtfully designed to hug your curves, smooth where it matters, and highlight what makes you uniquely you.</p>
+          <a href="https://wa.me/6281234567890" target="_blank" class="btn-sale-action">Explore Sale <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS / KOMEN SECTION -->
+  <section id="reviews" class="zashia-reviews-section">
+    <div class="zashia-reviews-container">
+
+      <!-- SISI KIRI: JUDUL, AVATAR STACK & RATING -->
+      <div class="reviews-left">
+        <span class="reviews-badge">🎀 The verdict is in</span>
+        <h2 class="reviews-heading">
+          LOVERS<br>
+          <span>SAY</span>
+        </h2>
+        <p class="reviews-subtext">
+          Custom dresses tailored with care, and our clients keep sharing their favorite moments. Drag the card to read more.
+        </p>
+
+        <div class="reviews-rating-row">
+          <div class="reviews-avatar-stack">
+            <span class="mini-pill pink">A</span>
+            <span class="mini-pill rose">N</span>
+            <span class="mini-pill blush">S</span>
+            <span class="mini-pill plus">+1k</span>
+          </div>
+          <div class="reviews-score-box">
+            <div class="score-top">
+              <strong>4.9</strong>
+              <span class="stars-gold">★★★★★</span>
+            </div>
+            <span class="score-caption">1,200+ happy dress lovers</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SISI KANAN: KARTU KOMEN BISA DIGESER CURSOR -->
+      <div class="reviews-right">
+        <div class="review-card-stage" id="reviewCardStage">
+          <article class="review-card" id="activeReviewCard">
+            <div class="review-card-top">
+              <div class="review-stars" id="reviewStars">★★★★★</div>
+              <span class="drag-hint" id="reviewCounter">1 / 4 • Drag ↔</span>
+            </div>
+            <blockquote class="review-quote" id="reviewQuote">
+              “Honestly ruined other ready-to-wear dresses for me. The custom fit and soft satin drape feel so personal.”
+            </blockquote>
+            <div class="review-author-row">
+              <div class="review-initial-badge" id="reviewInitial">M</div>
+              <div class="review-author-meta">
+                <strong id="reviewAuthor">Maya R.</strong>
+                <span id="reviewItem">custom satin midi dress</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section id="faq" class="zashia-faq-section">
+    <div class="zashia-faq-container">
+
+      <div class="faq-header">
+        <span class="faq-pill">good to know 🎀</span>
+        <h2>GOT QUESTIONS?</h2>
+        <p>Everything you need to know before ordering your custom dress.</p>
+      </div>
+
+      <div class="faq-grid">
+        <!-- FAQ 1 -->
+        <div class="faq-card">
+          <div class="faq-icon-top">?</div>
+          <h3>How are custom sizes taken?</h3>
+          <p>We guide you step by step with simple bust, waist, hip, and length measurements so your dress fits comfortably.</p>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-card">
+          <div class="faq-icon-top">?</div>
+          <h3>How long does tailoring take?</h3>
+          <p>Most custom dresses take around 7–14 working days depending on fabric details and embroidery or ribbon accents.</p>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-card">
+          <div class="faq-icon-top">?</div>
+          <h3>Do you ship across Indonesia?</h3>
+          <p>Yes! Every order is packed neatly and safely with shipping options available across cities and regions.</p>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-card">
+          <div class="faq-icon-top">?</div>
+          <h3>Can I request color or style tweaks?</h3>
+          <p>Of course. You can share your inspiration, preferred sleeve style, or soft pink shade before we begin sewing.</p>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-card">
+          <div class="faq-icon-top">?</div>
+          <h3>What about fabric care?</h3>
+          <p>Gentle hand wash or delicate cycle in cold water and air drying in the shade keeps soft fabrics looking fresh.</p>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-card">
+          <div class="faq-icon-top">?</div>
+          <h3>Can I order for special events?</h3>
+          <p>Yes, we craft dresses for graduations, parties, bridesmaid moments, and sweet everyday outfits.</p>
+        </div>
+      </div>
+
+      <!-- BANNER PENUTUP FAQ -->
+      <div class="faq-cta-banner">
+        <h3>Still curious?</h3>
+        <a href="https://wa.me/6281234567890?text=Halo%20Zashiiaa%2C%20aku%20mau%20tanya%20soal%20custom%20dress" target="_blank" class="btn-faq-chat">
+          <span>Chat with us</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer-section">
+    <div class="container footer-container">
+      
+      <!-- KOTAK KIRI: INFO & NAVIGASI -->
+      <div class="footer-box footer-left-box">
+        <div class="footer-brand">
+          <h3>Zashiiaa<span>.</span></h3>
+          <p>Custom Dress Specialist — Making your fashion dreams come true with exclusive style.</p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#contact">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Collections</h4>
+            <ul>
+              <li><a href="#">Casual Dress</a></li>
+              <li><a href="#">Party Gown</a></li>
+              <li><a href="#">Custom Set</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Reach us</h4>
+            <ul class="contact-info-list">
+              <li>Phone: +62 812-3456-7890</li>
+              <li>Email: zashiiaa.official@gmail.com</li>
+              <li>Location: Jatinangor, Sumedang, Jawa Barat</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom-row">
+          <p>&copy; 2026 Zashiiaa made with 💕</p>
+          <div class="footer-socials">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KOTAK KANAN: NEWSLETTER / SUBSCRIBE -->
+      <div class="footer-box footer-right-box">
+        <h3>Subscribe to the Zashiiaa newsletter</h3>
+        <p>Step inside our exclusive circle and unlock first access to new arrivals, expert styling secrets, and private member offers.</p>
+        
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Terima kasih sudah bergabung dengan newsletter Zashiiaa! 💖');">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <div class="newsletter-agreement">
+          <input type="checkbox" id="agree" required>
+          <label for="agree">By Submitting the form you agree with our Conditions*</label>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
